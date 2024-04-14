@@ -15,7 +15,7 @@ public class Company {
         System.out.println("Imie i nazwisko: " + employees[3].getName());
         System.out.println("Wynagrodzenie: " + employees[3].getSalary());
 
-        employees[3].setSalary(55000);
+        employees[3].setSalary(5500);
 
         System.out.println("\nDane dla wszystkich pracownikow:");
         for (Employee employee : employees) {
